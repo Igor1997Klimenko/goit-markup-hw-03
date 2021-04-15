@@ -1,0 +1,245 @@
+:root {
+  --main-blu-tx: #2196f3;
+  --blc-clr-txt: #212121;
+  --title-cl: #757575;
+  --alt-title-cl: #ffffff;
+  --dark-bg: #2f303a;
+  --serv-bg: #e5e5e5;
+  --sctn-ftr: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--alt-title-cl);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  color: var(--blc-clr-txt);
+}
+p {
+  margin-top: 0;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*Шапка сайта*/
+.header {
+  background-color: var(--alt-title-cl);
+}
+/*navigation*/
+.navigation {
+  align-items: center;
+  display: flex;
+}
+.site-nav {
+  padding-left: 0;
+  display: flex;
+}
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
+}
+.site-nav .link + .link + .link {
+  margin-right: 0;
+}
+
+/*.site-nav .link + .link {
+  margin-right: 50px;
+}*/
+/*auth-nav*/
+.auth-nav {
+  margin-left: auto;
+  display: flex;
+}
+.auth-nav .item-li {
+  margin-right: 50px;
+}
+.auth-nav .item-li + .item-li {
+  margin-right: 0;
+}
+
+.logo {
+  margin-right: 93px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-blu-tx);
+}
+.lg {
+  color: var(--blc-clr-txt);
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--blc-clr-txt);
+}
+.list {
+  color: var(--main-blu-tx);
+}
+.nav:hover,
+.nav:active {
+  color: var(--main-blu-tx);
+}
+
+.mobile {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
+}
+.mobile:hover,
+.mobile:active {
+  color: var(--main-blu-tx);
+}
+.heading {
+  background-color: var(--dark-bg);
+}
+
+/*Заказать услуги*/
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--alt-title-cl);
+}
+
+.buttons {
+  background-color: var(--main-blu-tx);
+  color: var(--alt-title-cl);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  font-family: Roboto;
+}
+.page {
+  background-color: var(--serv-bg);
+}
+.subject {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--blc-clr-txt);
+}
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--title-cl);
+}
+.page-two {
+  background-color: var(--sctn-ftr);
+}
+/*Должности компании*/
+.caption {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--blc-clr-txt);
+}
+/*Home page*/
+.subj {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--blc-clr-txt);
+}
+
+/*Teaching team*/
+
+.item {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-cl);
+}
+
+/*Подвал главной странице*/
+.foot {
+  background-color: var(--dark-bg);
+}
+.lp {
+  color: var(--serv-bg);
+}
+.adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--alt-title-cl);
+}
+.end {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress:hover,
+.adress:active {
+  color: var(--main-blu-tx);
+}
+.end:hover,
+.end:active {
+  color: var(--main-blu-tx);
+}
+/*Страница портфолио*/
+.main-two {
+  background-color: var(--serv-bg);
+}
+
+/*Кнопки*/
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--blc-clr-txt);
+  background-color: var(--sctn-ftr);
+  cursor: pointer;
+  font-family: inherit;
+}
+.butt {
+  background-color: var(--main-blu-tx);
+  color: var(--alt-title-cl);
+}
+/*Портфолио картинок*/
+.txt {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--blc-clr-txt);
+}
+.abzats {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--title-cl);
+}
