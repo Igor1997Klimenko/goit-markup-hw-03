@@ -35,6 +35,7 @@ p {
 }
 
 ul {
+  margin: 0;
   list-style: none;
 }
 a {
@@ -63,9 +64,6 @@ a {
   margin-right: 0;
 }
 
-/*.site-nav .link + .link {
-  margin-right: 50px;
-}*/
 /*auth-nav*/
 .auth-nav {
   margin-left: auto;
@@ -117,11 +115,15 @@ a {
   color: var(--main-blu-tx);
 }
 .heading {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   background-color: var(--dark-bg);
 }
 
 /*Заказать услуги*/
 .title {
+  margin: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -131,6 +133,10 @@ a {
 }
 
 .buttons {
+  margin-top: 30px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
   background-color: var(--main-blu-tx);
   color: var(--alt-title-cl);
   font-weight: 700;
@@ -143,7 +149,24 @@ a {
 .page {
   background-color: var(--serv-bg);
 }
+.content {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.item-section {
+  justify-content: space-between;
+  display: flex;
+  padding-left: 0;
+}
+.list {
+  margin-right: 30px;
+  max-width: 270px;
+}
+.list + .list + .list + .list {
+  margin-right: 0;
+}
 .subject {
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -151,6 +174,7 @@ a {
   color: var(--blc-clr-txt);
 }
 .text {
+  margin-top: 10px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -161,11 +185,39 @@ a {
   background-color: var(--sctn-ftr);
 }
 /*Должности компании*/
+.content-two {
+  padding-bottom: 94px;
+  text-align: center;
+}
 .caption {
+  margin-bottom: 0;
   font-size: 36px;
   line-height: 1.17;
   color: var(--blc-clr-txt);
 }
+.item-last {
+  margin-left: 30px;
+}
+.galerry {
+  margin-top: 50px;
+}
+.card-set {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.images {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.time-atem {
+  text-align: center;
+  flex-basis: calc((100% - 3 * 30px) / 3);
+}
+
 /*Home page*/
 .subj {
   font-weight: 500;
