@@ -41,6 +41,11 @@ ul {
 a {
   text-decoration: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /*Шапка сайта*/
 .header {
   background-color: var(--alt-title-cl);
@@ -185,38 +190,62 @@ a {
   background-color: var(--sctn-ftr);
 }
 /*Должности компании*/
-.content-two {
+.occupations-section {
+  padding-top: 0;
+}
+.section {
   padding-bottom: 94px;
-  text-align: center;
 }
 .caption {
-  margin-bottom: 0;
+  margin-bottom: 50px;
+  text-align: center;
   font-size: 36px;
   line-height: 1.17;
   color: var(--blc-clr-txt);
 }
-.item-last {
-  margin-left: 30px;
-}
-.galerry {
-  margin-top: 50px;
-}
 .card-set {
-  padding-left: 0;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-top: -30px;
 }
-
-.images {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.item-fox {
+  margin-left: 30px;
+  margin-top: 30px;
 }
-.time-atem {
+.team-list {
+  display: flex;
+  margin-right: calc(-1 * var(--margin-card));
+}
+.team-list .item-fox:first-child {
+  margin-left: 0;
+}
+.team-item {
   text-align: center;
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
+
+/*OCUPATIONS*/
+/*.occupations-section {
+  padding-top: 0;
+}
+/*TITLE ocupations and team*/
+/*.secondary-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--headers-nav-color);
+}
+.occupations-list {
+  display: flex;
+  margin-right: calc(-1 * var(--margin-card));
+}
+.occupations-list > .occupations-list-element {
+  flex-basis: calc((100% - 3 * var(--margin-card)) / 3);
+  margin-right: var(--margin-card);
+}*/
 
 /*Home page*/
 .subj {
