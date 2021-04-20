@@ -84,12 +84,6 @@ img {
   margin-left: auto;
   display: flex;
 }
-.auth-nav .item-li {
-  margin-right: 50px;
-}
-.auth-nav .item-li + .item-li {
-  margin-right: 0;
-}
 
 .logo {
   margin-right: 93px;
@@ -128,6 +122,7 @@ img {
   color: var(--main-blu-tx);
 }
 .item-li .mobile {
+  margin-right: 50px;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -137,6 +132,12 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-cl);
 }
+.auth-nav .item-li + .item-li {
+  margin-right: 0;
+}
+/*.item-li .mobile:nth-last-child(1) {
+  margin-right: 0;
+}*/
 .mobile:hover,
 .mobile:active {
   color: var(--main-blu-tx);
