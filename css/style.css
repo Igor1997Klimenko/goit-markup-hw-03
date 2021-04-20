@@ -81,6 +81,7 @@ img {
 
 /*auth-nav*/
 .auth-nav {
+  padding: 0;
   margin-left: auto;
   display: flex;
 }
@@ -133,14 +134,14 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-cl);
 }
-
+.item-li .mobile:not(:last-child) {
+  margin-right: 0;
+}
 .mobile:hover,
 .mobile:active {
   color: var(--main-blu-tx);
 }
-.item-li .mobile:not(:last-child) {
-  margin-right: 0;
-}
+
 .heading {
   padding-top: 200px;
   padding-bottom: 200px;
