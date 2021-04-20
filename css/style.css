@@ -121,8 +121,9 @@ img {
 .nav:focus {
   color: var(--main-blu-tx);
 }
+
 .item-li .mobile {
-  display: inline-block;
+  display: block;
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -132,7 +133,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-cl);
 }
-.item-li .mobile:last-child {
+.item-li .mobile + .mobile {
   margin-right: 0;
 }
 .mobile:hover,
