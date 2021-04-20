@@ -69,8 +69,8 @@ img {
 
 .site-nav .link {
   display: block;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: 50px;
 }
 .site-nav .link + .link + .link {
