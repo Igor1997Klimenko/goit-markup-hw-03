@@ -133,7 +133,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-cl);
 }
-.item-li .mobile + .mobile {
+.item-li .mobile:last-child {
   margin-right: 0;
 }
 .mobile:hover,
