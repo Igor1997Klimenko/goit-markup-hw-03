@@ -16,9 +16,6 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--alt-title-cl);
 }
-/*.body {
-  margin: 0;
-}*/
 
 h1,
 h2,
@@ -112,8 +109,6 @@ img {
   color: var(--blc-clr-txt);
 }
 .list {
-  padding-top: 32px;
-  padding-bottom: 32px;
   max-width: 270px;
   color: var(--main-blu-tx);
 }
@@ -243,10 +238,7 @@ img {
   margin-left: -30px;
   margin-top: -30px;
 }
-.centrer {
-  /*padding-left: 0;*/
-  margin-bottom: 94px;
-}
+
 .teams-listen {
   padding: 0;
 }
@@ -291,7 +283,6 @@ img {
 .many-menu {
   padding-left: 0;
   margin-bottom: 50px;
-  margin-top: 94px;
   display: flex;
   justify-content: center;
 }
@@ -317,7 +308,6 @@ img {
   color: var(--serv-bg);
 }
 .adress {
-  padding-bottom: 9px;
   display: inline-block;
   font-style: normal;
   font-weight: normal;
@@ -333,11 +323,13 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 .link-footer {
-  padding-bottom: 9px;
   display: inline-block;
 }
 .the-end {
   padding: 0;
+}
+.link-item-link:not(:last-child) {
+  margin-bottom: 9px;
 }
 .adress:hover,
 .adress:active {
@@ -351,11 +343,13 @@ img {
 .main-two {
   background-color: var(--alt-title-cl);
 }
-
+.section-item-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*Кнопки*/
 .button {
   border-radius: 4px;
-  /*margin-right: 8px;*/
   border: none;
   padding: 6px 22px;
   font-style: normal;
